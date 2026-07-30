@@ -14,7 +14,7 @@ S&P500 지표 수집 스크립트 (GitHub Actions 자동 실행용)
 
 환경변수 (선택):
   SP500_LIMIT   - 테스트용. 예: SP500_LIMIT=20 이면 앞 20종목만 수집
-  SP500_DELAY   - 종목 간 대기 시간(초). 기본 0.35
+  SP500_DELAY   - 종목 간 대기 시간(초). 기본 2
 """
 
 import json
